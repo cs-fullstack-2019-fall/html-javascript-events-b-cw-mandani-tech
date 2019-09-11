@@ -7,7 +7,7 @@
 //     inputElement.onkeydown = function(e) {
 //     console.log(e.target.value);
 //     labelid.innerText= e.target.value;
-//
+
 //     };
 
 
@@ -23,5 +23,6 @@ let codeCrewString = "Code School is a hands-on class designed to train individu
     inputElement.onkeydown = function(e) {
     console.log(e.target.value);
     labelid.innerText= codeCrewString[counter];
+    // !! : defaultString should build, not only display one character
     counter ++;
 };
